@@ -1,0 +1,121 @@
+body {
+    background-color: #141414; /* Dark background */
+    color: white; /* White text */
+    font-family: 'Arial', sans-serif;
+    text-align: center; /* Center align text */
+    padding: 50px; /* Add some padding */
+}
+
+p {
+    font-size: 1em; 
+    margin-bottom: 40px; /* Space below the heading */
+}
+
+
+h1 {
+    font-size: 1em; /* Large size for the main heading */
+    margin-bottom: 200px; /* Space below the heading */
+}
+
+h2 {
+    font-size: 2em; /* Slightly smaller for subheading */
+    margin-bottom: 30px; /* Space below the subheading */
+}
+
+h3 {
+    font-size: 3em; /* Slightly smaller for subheading */
+    margin-bottom: 20px; /* Space below the subheading */ 
+    padding: 20px; /* Padding inside the box */
+    border: 2px solid #e50914; /* Netflix red border */
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block; /* Make the box fit around the text */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+}
+h4 {
+    font-size: 2em; /* Slightly smaller for subheading */
+    margin-bottom: 20px; /* Space below the subheading */ 
+    padding: 20px; /* Padding inside the box */
+    border: 2px solid #e50914; /* Netflix red border */
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block; /* Make the box fit around the text */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+}
+
+.button-container {
+    display: flex; /* Use flexbox to align buttons */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+}
+
+.button {
+    padding: 15px 30px; /* Padding inside buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    font-size: 1.2em; /* Font size for buttons */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.yes {
+    background-color: #e50914; /* Netflix red for Yes */
+}
+
+.no {
+    background-color: #454545; /* Dark color for No */
+}
+
+.button:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+}
+
+.arrow-button {
+    display: inline-block;
+    background-color: #e50914; /* Green background */
+    color: white; /* White text */
+    padding: 15px 25px; /* Padding */
+    text-decoration: none; /* No underline */
+    font-size: 24px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.arrow-button:hover {
+    background-color: #e50914; /* Darker green on hover */
+}
+
+/* Arrow shape */
+.arrow-button::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid white; /* Arrow color */
+    margin-left: 10px; /* Space between text and arrow */
+}
+.container {
+   
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space between elements */
+    height: 100%; /* Full height */
+}
+
+.spacer {
+    flex-grow: 3; /* Take up all available space */
+}
+
+.nb {
+    display: inline-block;
+    background-color: #e50914; /* Green background */
+    color: white; /* White text */
+    padding: 15px 25px; /* Padding */
+    text-decoration: none; /* No underline */
+    font-size: 24px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition effect */
+
+}
